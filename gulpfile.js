@@ -80,8 +80,7 @@ gulp.task('lint:stylelint', lint_stylelint);
 
 function lint_phplint(callback){
 	var phplint = require('phplint').lint;
-	return phplint([baseSrc + '**/*.php'], {}, function (err, stdout, stderr) {
-		console.log(arguments);
+	return phplint([baseSrc + '**/*.php'], {}, function (err) {
 		if (err) {
 			callback(err);
 		} else {
@@ -102,3 +101,34 @@ function lint_phpcs(){
 		.pipe(phpcs.reporter('log'));
 }
 gulp.task('lint:phpcs', lint_phpcs);
+
+function lint_remark(){
+	var remark = require('gulp-remark');
+	var html = require('remark-html');
+	var lint = require('remark-preset-lint-markdown-style-guide');
+
+	return gulp.src(baseSrc + '**/*.md')
+		.pipe(remark().use(html).use(lint));
+}
+gulp.task('lint:remark', lint_remark);
+
+
+function lint_markdownlint(){
+	var through2 = require('through2');
+	var markdownlint = require('markdownlint');
+
+	return gulp.src('*.md', { 'read': false })
+		.pipe(through2.obj(function obj(file, enc, next) {
+			markdownlint(
+				{ 'files': [ file.relative ] },
+				function callback(err, result) {
+					var resultString = (result || '').toString();
+					if (resultString) {
+						console.log(resultString);
+					}
+					next(err, file);
+				}
+			);
+		}));
+}
+gulp.task('lint:markdownlint', lint_markdownlint);

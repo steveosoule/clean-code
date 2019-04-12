@@ -45,6 +45,11 @@
 	- https://packagecontrol.io/packages/SublimeLinter-json
 - [ ] MivaScript
 - [ ] SMT / MVT
+- [x] Markdown
+	- remark
+		- https://github.com/remarkjs/gulp-remark
+	- markdownlint
+		- Rules: https://github.com/DavidAnson/markdownlint#rules--aliases
 
 
 ## Notes
