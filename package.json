@@ -1,0 +1,16 @@
+{
+  "name": "mvps-linting",
+  "version": "0.0.1",
+  "description": "Defining code standards & linting rules for Miva Pro Services development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://miva_ssoule@bitbucket.org/miva-proservices/mvps-linting.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/miva-proservices/mvps-linting#readme"
+}
