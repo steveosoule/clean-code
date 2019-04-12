@@ -7,5 +7,21 @@
     "url": "git+https://miva_ssoule@bitbucket.org/miva-proservices/mvps-linting.git"
   },
   "license": "MIT",
-  "homepage": "https://bitbucket.org/miva-proservices/mvps-linting#readme"
+  "homepage": "https://bitbucket.org/miva-proservices/mvps-linting#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-csslint": "^1.0.1",
+    "gulp-eslint": "^5.0.0",
+    "gulp-htmlhint": "^2.2.1",
+    "gulp-htmllint": "0.0.16",
+    "gulp-jshint": "^2.1.0",
+    "gulp-jslint": "^1.0.10",
+    "gulp-stylelint": "^8.0.0",
+    "htmlhint": "^0.11.0",
+    "jshint": "^2.10.2",
+    "jslint": "^0.12.1",
+    "phplint": "^2.0.1",
+    "stylelint": "^9.10.1",
+    "stylelint-config-recommended": "^2.1.0"
+  }
 }

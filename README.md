@@ -2,13 +2,10 @@
 
 ## Todo
 
-- [ ] EditorConfig
+- [x] EditorConfig
 	- Description: EditorConfig helps developers maintain consistent coding styles between different editors
 	- GitHub: https://github.com/sindresorhus/editorconfig-sublime
 	- SublimeText Package: https://packagecontrol.io/packages/EditorConfig
-	- Steps:
-		- [ ] Installation Instructions
-		- [x] Template
 - [x] HTML
 	- https://www.npmtrends.com/html-lint-vs-htmlhint-vs-htmllint
 - [x] JavaScript
@@ -35,6 +32,7 @@
 	- csslint (more popular)
 		- Rules: https://github.com/CSSLint/csslint/wiki/Rules
 - [ ] PHP
+	- https://marcofranssen.nl/using-gulp-js-to-check-your-code-quality/
 	- php -l
 	- phpcs (Code Sniffer)
 - [x] JSON
