@@ -136,6 +136,7 @@
 
 - https://prettier.io/
 	- https://packagecontrol.io/packages/JsPrettier
+		- Options: https://prettier.io/docs/en/options.html
 		- Github: https://github.com/jonlabelle/SublimeJsPrettier
 			- Stars: 271
 		- Sublime Package: https://packagecontrol.io/packages/JsPrettier
