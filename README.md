@@ -8,6 +8,10 @@
 	- SublimeText Package: https://packagecontrol.io/packages/EditorConfig
 - [x] HTML
 	- https://www.npmtrends.com/html-lint-vs-htmlhint-vs-htmllint
+	- htmllint
+		- Rules: https://github.com/htmllint/htmllint/wiki/Options
+	- htmlhint
+		- Rules: https://github.com/htmlhint/HTMLHint/wiki/Rules
 - [x] JavaScript
 	- https://www.npmtrends.com/eslint-vs-jslint-vs-jshint
 	- Questions
@@ -31,10 +35,12 @@
 		- Rules: https://stylelint.io/user-guide/rules/
 	- csslint (more popular)
 		- Rules: https://github.com/CSSLint/csslint/wiki/Rules
-- [ ] PHP
+- [X] PHP
+	- phpcs (Code Sniffer)
+		- Rules: https://github.com/squizlabs/PHP_CodeSniffer
+		- Rules: https://github.com/JustBlackBird/gulp-phpcs
 	- https://marcofranssen.nl/using-gulp-js-to-check-your-code-quality/
 	- php -l
-	- phpcs (Code Sniffer)
 - [x] JSON
 	- https://packagecontrol.io/packages/SublimeLinter-json
 - [ ] MivaScript

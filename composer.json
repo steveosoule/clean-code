@@ -1,0 +1,7 @@
+{
+    "name": "ssoule/mvps-linting",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.4"
+    },
+    "license": "MIT"
+}

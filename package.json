@@ -16,6 +16,8 @@
     "gulp-htmllint": "0.0.16",
     "gulp-jshint": "^2.1.0",
     "gulp-jslint": "^1.0.10",
+    "gulp-phpcs": "^2.2.0",
+    "gulp-shell": "^0.7.0",
     "gulp-stylelint": "^8.0.0",
     "htmlhint": "^0.11.0",
     "jshint": "^2.10.2",

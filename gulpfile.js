@@ -1,6 +1,14 @@
 var gulp = require('gulp');
 
-var baseSrc = 'examples/shadows/';
+var baseSrc = 'examples/';
+
+/**
+Favorites:
+	- htmllint
+	- eslint
+	- stylelint
+	- phpcs
+*/
 
 function lint_htmlhint(){
 	var htmlhint = require('gulp-htmlhint');
@@ -83,4 +91,14 @@ function lint_phplint(callback){
 }
 gulp.task('lint:phplint', lint_phplint);
 
-gulp.task('default', lint_eslint);
+function lint_phpcs(){
+	var phpcs = require('gulp-phpcs');
+	return gulp.src([baseSrc + '**/*.php'])
+		.pipe(phpcs({
+			// standard: 'Zend', //  MySource, PEAR, PSR1, PSR12, PSR2, Squiz and Zend
+			standard: './phpcs.xml',
+			warningSeverity: 0
+		}))
+		.pipe(phpcs.reporter('log'));
+}
+gulp.task('lint:phpcs', lint_phpcs);
