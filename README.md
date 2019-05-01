@@ -1,4 +1,4 @@
-# mvps-linting
+# clean-code
 
 ## Todo
 
@@ -141,3 +141,12 @@
 			- Stars: 271
 		- Sublime Package: https://packagecontrol.io/packages/JsPrettier
 			- Installs: 62K
+
+### Best Practices / Reading
+
+- Uncle Bob - https://en.wikipedia.org/wiki/Robert_C._Martin
+- https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
+- https://www.investigatii.md/uploads/resurse/Clean_Code.pdf
+- https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29
+- https://x-team.com/blog/principles-clean-code/
+- https://clean-code-developer.com/
