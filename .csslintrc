@@ -1,6 +1,5 @@
 {
 	"ignore": [
-		"order-alphabetical"
 	],
 	"warnings": [
 		"adjoining-classes",
@@ -21,6 +20,7 @@
 		"ids",
 		"import",
 		"import-ie-limit",
+		"order-alphabetical",
 		"outline-none",
 		"overqualified-elements",
 		"qualified-headings",

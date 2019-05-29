@@ -1,0 +1,34 @@
+.foo{
+	color:#fff;
+	background:#000;
+}
+
+#foo{ color: fff !important;}
+
+:root{
+  --first-color: #488cff;
+  --second-color: #ffff8c;
+}
+
+.firstParagraph{
+  background-color: var(--first-color);
+  color: var(--second-color);
+}
+
+.secondParagraph {
+  background-color: var(--second-color);
+  color: var(--first-color);
+}
+
+.container {
+  --first-color: #48ff32;
+}
+
+.thirdParagraph:has {
+  background-color: var(--first-color);
+  color: var(--second-color);
+}
+
+.fourthParagraph:not(.foobar){
+	color: blue;
+}
