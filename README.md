@@ -44,6 +44,9 @@
 		- Rules: https://stylelint.io/user-guide/rules/
 	- csslint (more popular)
 		- Rules: https://github.com/CSSLint/csslint/wiki/Rules
+    - csscomb.js
+      - https://github.com/csscomb/csscomb.js
+      - https://github.com/csscomb/csscomb.js/blob/dev/config/csscomb.json
 - [X] PHP
 	- phpcs (Code Sniffer)
 		- Rules: https://github.com/squizlabs/PHP_CodeSniffer

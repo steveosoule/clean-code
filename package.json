@@ -9,6 +9,9 @@
   "license": "MIT",
   "homepage": "https://bitbucket.org/miva-proservices/mvps-linting#readme",
   "devDependencies": {
+    "csscomb": "^4.3.0",
+    "csslint": "^1.0.5",
+    "eslint": "^5.16.0",
     "gulp": "^4.0.0",
     "gulp-csslint": "^1.0.1",
     "gulp-eslint": "^5.0.0",
@@ -25,10 +28,13 @@
     "jslint": "^0.12.1",
     "markdownlint": "^0.13.0",
     "phplint": "^2.0.1",
+    "prettier": "^1.17.1",
     "remark-html": "^9.0.0",
     "remark-preset-lint-markdown-style-guide": "^2.1.2",
     "stylelint": "^9.10.1",
     "stylelint-config-recommended": "^2.1.0",
+    "stylelint-order": "^3.0.0",
+    "stylelint-prettier": "^1.1.0",
     "through2": "^3.0.1"
   }
 }
