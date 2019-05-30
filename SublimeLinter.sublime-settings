@@ -1,45 +1,35 @@
 // SublimeLinter Settings - User
 {
-	"debug": false,
+    "debug": true,
 	 "linters": {
-		"csslint": {
-			"@disable": false,
-			"args": ["--config=C:/Users/ssoule/Documents/Principal Developer/clean-code/.csslintrc"],
-			"errors": "",
-			"excludes": [],
-			"ignore": "",
-			"warnings": ""
-		},
-		"eslint": {
-			"@disable": true,
-			"args": [],
-			"excludes": []
-		},
-		"htmltidy": {
-			"@disable": false,
-			"args": [],
-			"excludes": []
-		},
-		"jshint": {
-			"@disable": false,
-			"args": [],
-			"excludes": []
-		},
-		"json": {
-			"@disable": false,
-			"args": [],
-			"excludes": [],
-			"strict": true
-		},
-		"php": {
-			"@disable": false,
-			"args": [],
-			"excludes": []
-		},
-		"xmllint": {
-			"@disable": false,
-			"args": [],
-			"excludes": []
-		}
-	}
+        "eslint": {
+            "@disable": false,
+            "args": [],
+            "excludes": []
+        },
+        "stylelint": {
+            "@disable": false,
+            "args": ["--config=%USERPROFILE%/clean-code/.stylelintrc.json"],
+        },
+        "htmltidy": {
+            "@disable": false
+        },
+        "jshint": {
+            "@disable": false
+        },
+        "json": {
+            "@disable": false,
+            "strict": true
+        },
+        "php": {
+            "@disable": false
+        },
+        "xmllint": {
+            "@disable": false
+        },
+        "csslint": {
+            "@disable": true,
+            "args": ["--config=%USERPROFILE%/clean-code/.csslintrc.json"]
+        }
+    }
 }

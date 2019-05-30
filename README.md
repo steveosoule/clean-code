@@ -1,5 +1,11 @@
 # clean-code
 
+### Linter Config Usage Intructions
+
+1. Clone this repo into your `%USERPROFILE%` directory (ex. `C:/Users/yourname/`)
+1. `cd clean-code`
+1. npm install
+
 ### Best Practices / Reading
 
 - Uncle Bob - https://en.wikipedia.org/wiki/Robert_C._Martin
