@@ -1,5 +1,6 @@
 node_modules
-examples
 vendor
 output/*
 !output/.gitkeep
+examples/*
+!examples/.gitkeep
