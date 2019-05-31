@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 
-var baseSrc = 'examples/';
+var baseSrc = 'sample-files/';
 
 /**
 Favorites:
@@ -68,10 +68,17 @@ function lint_stylelint(){
 	var stylelint = require('gulp-stylelint');
 	return gulp.src(baseSrc + '**/*.css')
 		.pipe(stylelint({
+			configFile: '.stylelintrc.json',
 			reporters: [
 				{
 					formatter: 'string',
+					save: 'output/stylelint.txt',
 					console: true
+				},
+				{
+					formatter: 'json',
+					save: 'output/stylelint.json',
+					console: false
 				}
 			]
 		}));
